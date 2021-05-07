@@ -1,0 +1,23 @@
+{
+    "name": "graphql-elasticsearch-node",
+    "version": "0.0.0",
+    "scripts": {
+    "start": "node ./server/server.js",
+    "devstart": "nodemon ./server/server.js"
+    },
+    "dependencies": {
+        "apollo-boost": "^0.4.9",
+        "apollo-server-express": "^2.24.0",
+        "axios": "^0.21.1",
+        "body-parser": "^1.19.0",
+        "elasticsearch": "^16.7.2",
+        "express": "^4.17.1",
+        "express-graphql": "^0.12.0",
+        "graphql": "^15.5.0",
+        "graphql-tools": "^7.0.4",
+        "lodash": "^4.17.21",
+        "path": "^0.12.7",
+        "webpack": "^5.36.2"
+    },
+    "devDependencies": {}
+}
